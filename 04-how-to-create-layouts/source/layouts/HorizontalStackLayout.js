@@ -18,19 +18,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
   },
-  box: {
-   //flex: 1
-  },
-  box1: {
-    flex: 2,
-    backgroundColor: 'red',
-  },
-  box2: {
-    flex: 1,
-    backgroundColor: 'blue',
-  },
-  box3: {
-    flex: 1,
-    backgroundColor: 'green',
-  }
+  box: { flex: 1 },
+  box1: { backgroundColor: 'red' },
+  box2: { backgroundColor: 'blue' },
+  box3: { backgroundColor: 'green' }
 });
