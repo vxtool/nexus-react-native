@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   },
   innerBox3: {
     flex: 1,
-    backgroundColor: 'orange'
+    backgroundColor: 'blue'
   },
   two: { flex: 2 }
 });

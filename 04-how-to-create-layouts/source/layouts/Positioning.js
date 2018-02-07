@@ -6,23 +6,23 @@ export default class Positioning extends Component {
   	return (
       <View style={styles.container}>
         <View style={styles.left}>
-          <View style={[styles.box, styles.big_orange_box]}>
+          <View style={[styles.box, styles.bigRedBox]}>
           </View>
         </View>
         <View style={styles.middle}>
-          <View style={[styles.box, styles.big_black_box]}>
-            <View style={[styles.inner_box, styles.red_box]}></View>
+          <View style={[styles.box, styles.bigBlueBox]}>
+            <View style={[styles.innerBox, styles.blackBox]}></View>
           </View>
-          <View style={[styles.big_gray_box]}></View>
-          <View style={[styles.box, styles.big_green_box]}>
-            <View style={[styles.inner_box, styles.orange_box]}></View>
+          <View style={[styles.bigGrayBox]}></View>
+          <View style={[styles.box, styles.bigGreenBox]}>
+            <View style={[styles.innerBox, styles.blackBox]}></View>
           </View>
         </View>
         <View style={styles.right}>
-          <View style={[styles.box, styles.big_lightblue_box]}>
-            <View style={[styles.inner_box, styles.black_box]}></View>
+          <View style={[styles.box, styles.bigYellowBox]}>
+            <View style={[styles.innerBox, styles.blackBox]}></View>
           </View>
-          <View style={[styles.inner_box, styles.purple_box]}></View>
+          <View style={[styles.innerBox, styles.purpleBox]}></View>
         </View>
       </View>
   	);
@@ -51,17 +51,11 @@ const styles = StyleSheet.create({
   box: {
     width: 100,
     height: 100,
-    backgroundColor: '#333',
+    backgroundColor: '#f2f2f2',
   },
-  bigGreenBox: {
-    backgroundColor: 'green',
-  },
-  bigOrangeBox: {
-    backgroundColor: 'orange',
-  },
-  bigLightblueBox: {
-    backgroundColor: '#03A9F4',
-  },
+  bigGreenBox: { backgroundColor: 'green' },
+  bigRedBox: { backgroundColor: 'red' },
+  bigYellowBox: { backgroundColor: 'yellow' },
   bigGrayBox: {
     height: 100,
     alignSelf: 'stretch',
@@ -77,9 +71,9 @@ const styles = StyleSheet.create({
     top: 10,
     left: 10
   },
-  orangeBox: {
+  blueBox: {
     position: 'absolute',
-    backgroundColor: 'orange',
+    backgroundColor: 'blue',
     top: 10,
     right: 10
   },
