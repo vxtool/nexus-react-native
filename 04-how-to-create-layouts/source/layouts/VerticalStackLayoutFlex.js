@@ -5,9 +5,9 @@ export default class VerticalStackLayoutFlex extends Component {
   render() {
 	return (
 		<View style={styles.container}>
-		    <View style={[styles.box, styles.box1]}></View>
-		    <View style={[styles.box, styles.box2]}></View>
-		    <View style={[styles.box, styles.box3]}></View>
+      <View style={[styles.box, styles.box1]}></View>
+      <View style={[styles.box, styles.box2]}></View>
+      <View style={[styles.box, styles.box3]}></View>
 		</View>
 	);
   }

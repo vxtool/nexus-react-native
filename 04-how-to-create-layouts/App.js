@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
-
-
-import VerticalStackLayoutFlex from './layouts/VerticalStackLayoutFlex';
+import VerticalStackLayoutFlex from './source/layouts/VerticalStackLayoutFlex';
 
 /*
-import AlignItems from './layouts/AlignItems';
-import AlignItemsStretch from './layouts/AlignItemsStretch';
-import FixedHeaderFooter from './layouts/FixedHeaderFooter';
-import GridLayout from './layouts/GridLayout';
-import GridLayoutWithSpaceBetween from './layouts/GridLayoutWithSpaceBetween';
-import HorizontalStackLayout from './layouts/HorizontalStackLayout';
-import JustifyContent from './layouts/JustifyContent';
-import Positioning from './layouts/Positioning';
-import VerticalStackLayoutFlex from './layouts/VerticalStackLayoutFlex';
-import VerticalStackLayoutHeaderContentFooter from './layouts/VerticalStackLayoutHeaderContentFooter';
-import VerticalStackLayoutManual from './layouts/VerticalStackLayoutManual';
+import AlignItems from './source/layouts/AlignItems';
+import AlignItemsStretch from './source/layouts/AlignItemsStretch';
+import FixedHeaderFooter from './source/layouts/FixedHeaderFooter';
+import GridLayout from './source/layouts/GridLayout';
+import GridLayoutWithSpaceBetween from './source/layouts/GridLayoutWithSpaceBetween';
+import HorizontalStackLayout from './source/layouts/HorizontalStackLayout';
+import JustifyContent from './source/layouts/JustifyContent';
+import Positioning from './source/layouts/Positioning';
+import VerticalStackLayoutFlex from './source/layouts/VerticalStackLayoutFlex';
+import VerticalStackLayoutHeaderContentFooter from './source/layouts/VerticalStackLayoutHeaderContentFooter';
+import VerticalStackLayoutManual from './source/layouts/VerticalStackLayoutManual';
 */
 
-export class App extends Component {
+export default class App extends Component {
   render() {
     return <VerticalStackLayoutFlex />;
   }
