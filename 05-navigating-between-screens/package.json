@@ -1,0 +1,32 @@
+{
+  "name": "helloworld",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "watchman watch-del-all && node node_modules/react-native/local-cli/cli.js start --reset-cache",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@descco/react-native-ui": "1.1.1",
+		"immutable": "3.8.2",
+		"react": "16.0.0",
+		"react-native": "0.50.4",
+		"react-native-event-listeners": "1.0.3",
+		"react-native-svg": "6.0.0",
+		"react-navigation": "1.0.0-beta.21",
+		"react-redux": "5.0.6",
+		"redux": "3.7.2",
+		"redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"prettier": "1.8.2",
+		"react-test-renderer": "16.0.0",
+		"remote-redux-devtools": "0.5.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
